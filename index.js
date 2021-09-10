@@ -52,7 +52,6 @@ const cog = new TileLayer({
 
 const apiKey = '7cd2ddae-9f2e-481c-99d0-404e7bc7a0b2',
   styleUrl = `https://avoin-karttakuva.maanmittauslaitos.fi/vectortiles/stylejson/${styleVer}/generic.json?TileMatrixSet=${tileMatrixSet}&api-key=${apiKey}`,
-  //styleUrl = 'https://ktjkehitys.nls.fi/kipa/kipa.json',
   tileUrl = `https://avoin-karttakuva.maanmittauslaitos.fi/vectortiles/taustakartta/wmts/1.0.0/taustakartta/default/${tileVer}/${tileMatrixSet}/{z}/{y}/{x}.pbf?api-key=${apiKey}`,
   tileUrlKTJkii = `https://ktjkehitys.nls.fi/api/ktj/latest/vectortiles/v3/wmts/1.0.0/ktjkii/default/${tileMatrixSet}/{z}/{y}/{x}.pbf`;
 
